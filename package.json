@@ -1,0 +1,21 @@
+{
+  "name": "pub-sub",
+  "version": "1.0.0",
+  "description": "Sub-Pub pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack --mode development",
+    "watch": "webpack --watch --mode development"
+  },
+  "author": "Vladislav Khayretdinov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
